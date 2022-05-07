@@ -9,3 +9,223 @@
 html {
   @apply antialiased;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, 'Poppins', sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul, ol{
+  list-style: none;
+}
+
+
+.SearchContainer {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchWraper {
+  width: 350px;
+}
+.searchWraper > input {
+  height: 45px;
+  width: 100%;
+  border: 1px solid #e5e7eb;
+}
+.searchIcon {
+  right: 0;
+  top: 9%;
+}
+.menuWraper {
+  margin-right: 30px;
+  justify-content: space-center;
+  align-items: center;
+}
+.userMenuList > a {
+  font-family: system-ui;
+  font-size: 16px;
+  color: #666666;
+  font-weight: 500;
+}
+
+.keen-slider__slide {
+  background-color: #7928ca;
+}
+.arrow--left {
+  left: 30px;
+  top: 58%;
+  cursor: pointer;
+  color: #fff;
+}
+.arrow--right {
+  right: 30px;
+  top: 58%;
+  cursor: pointer;
+  color: #fff;
+}
+.navigation-wrapper{
+  position: relative;
+}
+.leftSilder,
+.rightSilder {
+  height: 100%;
+}
+.NavWraper {
+  background-color: #fff;
+}
+.rightSilder h1 {
+  font-family: system-ui;
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+  background-color: #fff;
+  padding: 10px 20px;
+  width: 300px;
+}
+.rightSilder {
+  p{
+    font-family: system-ui;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #000;
+    background-color: #fff;
+    padding: 10px 20px;
+    padding-bottom: 20px;
+  }
+
+}
+.custom_btn {
+  width: 200px;
+  background-color: #fff;
+  color: #7928ca;
+  font-family: system-ui;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+}
+
+
+/* features css start */
+.fraturesProductMain{
+  width: 100%;
+}
+.FeaturesProductCard__info{
+  h2{
+    background-color: #fff;
+    padding: 15px 20px;
+    color: #000;
+    font-family: system-ui;
+    font-size: 32px;
+    font-weight: 900;
+  }
+
+}
+.FeaturesProductCard__info{
+  p{
+    background-color: #fff;
+    padding: 10px 20px;
+    color: #000;
+    font-family: system-ui;
+    font-size: 16px;
+    font-weight: 600;
+    width:150px;
+  }
+
+}
+.FeaturesProductCard__wishlist-btn{
+  background-color: #fff;
+  padding: 20px;
+  color: #000;
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: .5s;
+}
+.FeaturesProductCard__image{
+  transition-property: transform;
+transition-timing-function: cubic-bezier(.4,0,.2,1);
+transition-duration: .5s;
+}
+
+.FeaturesProductCardWraper:hover .FeaturesProductCard__image{
+  transform: scale(1.04);
+}
+.FeaturesProductCardWraper:hover .FeaturesProductCard__wishlist-btn{
+  background-color: transparent;
+  color: #ffffff;
+}
+.bigOne{
+  width: 100%;
+}
+.featureLeftPro{
+  width: 65%;
+}
+
+.featureRightPro{
+  width: 35%;
+}
+.featureRightPro{
+  div{
+    overflow: hidden;
+    height: 457px;
+  }
+
+}
+
+/* Loop */
+.LoopProductWraper{
+  padding: 40px 0px;
+  border-bottom: 1px solid #efefef;
+}
+.LoopProInfo{
+  background: #fff;
+  padding: 10px;
+  color: #000;
+  position: absolute;
+  top: 99px;
+}
+.product-loop__item{
+  margin: 0px 10px;
+  cursor: pointer;
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  transition-duration: .5s;
+}
+.product-loop__item-title{
+  font-family: system-ui;
+  font-size: 24px;
+  font-weight: 700;
+}
+.color-item__color{
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.product-loop__item .footerStack{
+  opacity: 0;
+}
+.product-loop__item:hover .footerStack{
+  opacity: 1;
+}

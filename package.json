@@ -14,6 +14,11 @@
     "test-all": "yarn lint && yarn type-check && yarn test"
   },
   "dependencies": {
+    "@headlessui/react": "^1.6.1",
+    "@heroicons/react": "^1.0.6",
+    "css-loader": "^6.7.1",
+    "keen-slider": "^6.6.12",
+    "react-fast-marquee": "^1.3.1",
     "next": "12.1.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
